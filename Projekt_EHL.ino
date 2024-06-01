@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 
 // WLAN Konfiguration
-const char* ssid = "Mirhendkeiwlan";
-const char* password = "Einsbisacht";
+const char* ssid = "SSID Name"; //Name vom entsprechenden Netzwerk eingeben, Zensur persönlicher Daten
+const char* password = "Passwort"; //Passwort vom entsprechenden Netzwerk eingeben, Zensur persönlicher Daten
 
 // SendGrid API Key
-const char* apiKey = "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";
+const char* apiKey = "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"; //apiKey muss neu generiert werden, kann seit dem hochladen auf GitHub nicht mehr verwendet werden
 
 // SendGrid API URL
 const char* sendgridUrl = "https://api.sendgrid.com/v3/mail/send";
